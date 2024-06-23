@@ -41,7 +41,7 @@ const audioTempoFinalizado = new Audio('./sons/beep.mp3');
 
 
 //instancionando um novo objeto música
-const musica = new Audio('/sons/luna-rise-part-one.mp3');
+const musica = new Audio('./sons/luna-rise-part-one.mp3');
 //tocando a musica infinitamente
 musica.loop = true;
 musicaFocoInput.addEventListener('change', () => {
